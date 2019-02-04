@@ -1,7 +1,8 @@
 # Add  code here!
 def prime?(integer)
   return false if integer < 2
-  array = (2...integer).to_a.each do |divisor|
+  array = (2...integer).to_a
+  array.each do |divisor|
     return false if integer % divisior == 0 
   end
   true
