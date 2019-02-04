@@ -5,7 +5,7 @@ def prime?(integer)
   array.each do |divisor|
     return false if integer % divisior == 0 
   end
-  true
+  return true
 end
 
     
