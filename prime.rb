@@ -7,7 +7,8 @@ def prime?(integer)
       else true
       end
     end
-  return false
+  else 
+    puts "A prime number must be greater than 1"
 end
 
     
