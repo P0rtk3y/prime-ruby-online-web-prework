@@ -1,2 +1,2 @@
 # Add  code here!
-def prime?(integer)
+def is_prime?(integer)
